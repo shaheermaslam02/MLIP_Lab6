@@ -24,6 +24,7 @@ pipeline {
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
                 cd MLIP_Lab6
                 pytest
+                
 
                 echo 'pytest not runned'
                 exit 1 #comment this line after implementing Jenkinsfile
