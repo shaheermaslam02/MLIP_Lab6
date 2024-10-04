@@ -18,7 +18,8 @@ pipeline {
                 # TODO fill out the path to conda here
                 # sudo /PATH/TO/CONDA init
                 ls
-                source mlip/bin/activate
+                python3 -m venv mlip2
+                source mlip2/bin/activate
                 pip install pytest
 
                 # TODO Complete the command to run pytest
